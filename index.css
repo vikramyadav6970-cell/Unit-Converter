@@ -1,6 +1,6 @@
 html body{
     margin: 0%;
-    background-color: rgb(191, 251, 101);
+    background-color: rgb(189, 206, 163);
 }
 
 #main{
@@ -43,6 +43,10 @@ html body{
     border: solid grey 2px;
     border-radius: 7px;
     background-color: transparent;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
 }
 
 #convert{
@@ -62,29 +66,36 @@ html body{
 
 #lower-box{
     height: 60%;
-    background-color: rgb(41, 35, 71);
+    background-color: whitesmoke;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    color: rgb(100, 66, 223);
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #length{
     margin-bottom: 20px;
     height: 25%;
     width: 75%;
-    background-color: aliceblue;
+    background-color: white;
 }
 
 #volume{
     margin-bottom: 20px;
     height: 25%;
     width: 75%;
-    background-color: aliceblue;
+    background-color: white;
 }
 
 #mass{
     height: 25%;
     width: 75%;
-    background-color: aliceblue;
+    background-color: white;
+}
+
+#lower-box p{
+    color: grey;
 }
